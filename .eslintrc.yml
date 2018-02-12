@@ -1,0 +1,23 @@
+root: true
+plugins:
+  - prettier
+extends:
+  - plugin:prettier/recommended
+parser: babel-eslint
+env: {}
+globals:
+  __noteStatus__: 1
+  emit: 1
+rules:
+  prettier/prettier:
+    - 2
+    -
+      trailingComma: none
+      singleQuote: true
+      semi: false
+  prefer-const: 2
+  no-unused-vars:
+    - 2
+    -
+      argsIgnorePattern: ^_
+      varsIgnorePattern: ^_

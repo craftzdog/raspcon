@@ -1,0 +1,41 @@
+{
+  "name": "@craftzdog/raspcon",
+  "version": "1.0.0",
+  "description": "RaspCon ===============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js --exec \"npm start\"",
+    "start": "DEBUG=app node -r babel-register server/index.js",
+    "lint": "eslint server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftzdog/raspcon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craftzdog/raspcon/issues"
+  },
+  "homepage": "https://github.com/craftzdog/raspcon#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "debug": "^3.1.0",
+    "koa": "^2.5.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.10.2",
+    "nodemon": "^1.14.12"
+  }
+}
