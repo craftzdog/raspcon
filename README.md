@@ -59,3 +59,13 @@ npm install
 npm start
 ```
 
+## API
+
+### PUT `/aircon/power`
+
+Turn the AC on.
+
+### DELETE `/aircon/power`
+
+Turn the AC off.
+
