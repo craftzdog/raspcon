@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server/index.js --exec \"npm start\"",
-    "start": "DEBUG=app node -r babel-register server/index.js",
+    "start": "DEBUG=app node index.js",
     "lint": "eslint server"
   },
   "repository": {
