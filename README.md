@@ -35,7 +35,7 @@ Copy files to `/usr/local`:
 sudo cp -R * /usr/local/
 ```
 
-That's it. Verify that the right version of node.js is installed as expexted:
+That's it. Verify that the right version of node.js is installed as expected:
 
 ```sh
 node -v
